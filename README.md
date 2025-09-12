@@ -1,4 +1,4 @@
-Here’s a complete `README.md` file draft for your HackMerlin Agent project, incorporating the explanation of your thinking process, implementation details, challenges, design trade-offs, and ideas for future improvements.
+
 
 ---
 
@@ -155,6 +155,3 @@ Level 1 solved, flag = QUASAR
 
 ---
 
-If you want, I can also **create and push this as a real GitHub repo** for you with all the starter code and this README in place.
-
-Would you like me to do that?
