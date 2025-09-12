@@ -97,15 +97,6 @@ python merlin_game.py
 
 ---
 
-## 📺 Helpful Resources
-
-* 🧠 [Prompt Engineering: Chain-of-Thought Reasoning](https://www.promptingguide.ai/techniques/cot)
-* 📄 [LLaMA 3 Model Documentation](https://ai.meta.com/llama/)
-* 🎥 [Video Introduction to Adversarial Prompting](https://www.youtube.com/watch?v=3qHkcs3kG44)
-* 💻 Example GitHub repo for LLM agents: [LangChain Agents](https://github.com/hwchase17/langchain)
-
----
-
 ## 🚀 Future Improvements
 
 If **cost and compute were not an issue**:
