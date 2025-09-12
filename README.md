@@ -101,7 +101,6 @@ The loop continues for up to **50 steps** or until the level is solved.
 
 ### Steps
 
-```bash
 # Clone the repository
 git clone https://github.com/<your-username>/HackMerlinAgent.git
 cd HackMerlinAgent
@@ -111,8 +110,6 @@ pip install -r requirements.txt
 
 # Run the agent
 python merlin_game.py
-```
-
 ---
 
 ## 📺 Helpful Resources
