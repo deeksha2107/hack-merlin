@@ -1,6 +1,12 @@
+Here’s a complete `README.md` file draft for your HackMerlin Agent project, incorporating the explanation of your thinking process, implementation details, challenges, design trade-offs, and ideas for future improvements.
+
+---
+
 # 🧙‍♂️ HackMerlin Agent
 
-An intelligent agent designed to solve the multi-level HackMerlin game by dynamically crafting adversarial prompts, extracting clues, and adapting its strategy as the game’s defences evolve.
+An intelligent agent designed to solve the multi-level **HackMerlin** game by dynamically crafting adversarial prompts, extracting clues, and adapting its strategy as the game’s defences evolve.
+
+---
 
 ## 📌 Overview
 
@@ -13,6 +19,8 @@ This project automates the process of solving the **HackMerlin** game levels by:
 * Iteratively improving strategy until the level is solved or the maximum attempts are reached
 
 The agent was designed to be modular and adaptive, mimicking how a human would logically deduce the correct password while facing changing defences.
+
+---
 
 ## 🧠 Design & Thinking Process
 
@@ -65,8 +73,9 @@ The loop continues for up to **50 steps** or until the level is solved.
 
 ---
 
- High-Level Architecture
+## ⚡ High-Level Architecture
 
+```plaintext
           ┌─────────────┐
           │ LevelState  │
           └─────┬───────┘
@@ -74,7 +83,7 @@ The loop continues for up to **50 steps** or until the level is solved.
          manages state
                 │
          ┌──────▼──────────┐
-         │HackerMerlinAgent│
+         │ HackerMerlinAgent│
          └──────┬──────────┘
     connects    │   strategist()
                 │
@@ -101,6 +110,7 @@ The loop continues for up to **50 steps** or until the level is solved.
 
 ### Steps
 
+```bash
 # Clone the repository
 git clone https://github.com/<your-username>/HackMerlinAgent.git
 cd HackMerlinAgent
@@ -110,6 +120,8 @@ pip install -r requirements.txt
 
 # Run the agent
 python merlin_game.py
+```
+
 ---
 
 ## 📺 Helpful Resources
