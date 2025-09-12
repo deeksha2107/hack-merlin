@@ -73,33 +73,6 @@ The loop continues for up to **50 steps** or until the level is solved.
 
 ---
 
-## ⚡ High-Level Architecture
-
-```plaintext
-          ┌─────────────┐
-          │ LevelState  │
-          └─────┬───────┘
-                │
-         manages state
-                │
-         ┌──────▼──────────┐
-         │ HackerMerlinAgent│
-         └──────┬──────────┘
-    connects    │   strategist()
-                │
-         ┌──────▼──────────────┐
-         │  LLaMA 3 Model       │
-         └──────┬──────────────┘
-                │
-          generates prompts
-                │
-      ┌─────────▼───────────┐
-      │ HackMerlin Webpage  │
-      └─────────────────────┘
-```
-
----
-
 ## 🛠 Setup & Usage
 
 ### Prerequisites
@@ -187,18 +160,7 @@ Response: "In this level, remember the power of the QUASAR..."
 Level 1 solved, flag = QUASAR
 ```
 
----
 
-## 📜 License
-
-MIT License © 2025 \[Your Name]
-
----
-
-## 🤝 Contributing
-
-Pull requests are welcome!
-Please open an issue first to discuss your proposed change.
 
 ---
 
